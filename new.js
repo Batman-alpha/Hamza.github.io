@@ -18,8 +18,9 @@
  document.getElementById('sbmtBtn').onclick = function () {
     function countAge(){
         let a = document.getElementById('numberInput').value;
-        let x = 2024 - a ; 
+        let x = 2026 - a ; 
         document.getElementById('resultText').textContent = x ;
     }
     countAge();
+
  }
